@@ -127,13 +127,13 @@ type definitions are developed in this project. They are then *pushed*
 into a LuaCATS repository.
 
 * [LuaCATS: tex-lualatex](https://github.com/LuaCATS/tex-lualatex)
-  ← [library/lualatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualatex)
+  ← [TeXLuaCATS/LuaLaTeX](https://github.com/TeXLuaCATS/LuaLaTeX)
 * [LuaCATS: tex-luatex](https://github.com/LuaCATS/tex-luatex)
-  ← [library/luatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luatex)
+  ← [TeXLuaCATS/LuaTeX](https://github.com/TeXLuaCATS/LuaTeX)
 * [LuaCATS: tex-lualibs](https://github.com/LuaCATS/tex-lualibs)
-  ← [library/lualibs](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualibs)
+  ← [TeXLuaCATS/Lualibs](https://github.com/TeXLuaCATS/Lualibs)
 * [LuaCATS: tex-luametatex](https://github.com/LuaCATS/tex-luametatex)
-  ← [library/luametatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luametatex)
+  ← [TeXLuaCATS/LuaMetaTeX](https://github.com/TeXLuaCATS/LuaMetaTeX)
 
 ## Directory structure of the repository
 
