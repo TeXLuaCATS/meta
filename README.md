@@ -103,22 +103,22 @@ definitions are developed in a LuaCATS repository and *pulled* in by
 this project.
 
 * [LuaCATS: lmathx](https://github.com/LuaCATS/lmathx)
-  → [library/luametatex/lmathx.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luametatex/xmath.lua)
+  → [library/luametatex/lmathx.lua](https://github.com/TeXLuaCATS/LuaMetaTeX/blob/main/library/xmath.lua)
 * [LuaCATS: lpeg](https://github.com/LuaCATS/lpeg)
-  → [library/luatex/lpeg.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/lpeg.lua)
+  → [TeXLuaCATS/LuaTeX/lpeg.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/lpeg.lua)
 * [LuaCATS: luaharfbuzz](https://github.com/LuaCATS/luaharfbuzz)
-  → [library/luatex/luaharfbuzz.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/luaharfbuzz.lua)
+  → [TeXLuaCATS/LuaTeX/luaharfbuzz.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/luaharfbuzz.lua)
 * [LuaCATS: luasocket](https://github.com/LuaCATS/luasocket)
-  → [library/luatex/socket.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/socket.lua)
-  → [library/luatex/mime.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/mime.lua)
+  → [TeXLuaCATS/LuaTeX/socket.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/socket.lua)
+  → [TeXLuaCATS/LuaTeX/mime.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/mime.lua)
 * [LuaCATS: luazip](https://github.com/LuaCATS/luazip)
-  → [library/luatex/zip.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/zip.lua)
+  → [TeXLuaCATS/LuaTeX/zip.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/zip.lua)
 * [LuaCATS: lzlib](https://github.com/LuaCATS/lzlib)
-  → [library/luatex/zlib.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/zlib.lua)
+  → [TeXLuaCATS/LuaTeX/zlib.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/zlib.lua)
 * [LuaCATS: md5](https://github.com/LuaCATS/md5)
-  → [library/luatex/md5.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/md5.lua)
+  → [TeXLuaCATS/LuaTeX/md5.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/md5.lua)
 * [LuaCATS: slnunicode](https://github.com/LuaCATS/slnunicode)
-  → [library/luatex/unicode.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/unicode.lua)
+  → [TeXLuaCATS/LuaTeX/unicode.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/unicode.lua)
 
 #### Downstream LuaCATS repositories
 
@@ -288,7 +288,7 @@ Use imperative mood for the first line: https://peps.python.org/pep-0257/
 Default message:
 
 ```lua
----😱 [Types](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/pdf.lua) incomplete or incorrect? 🙏 [Please contribute!](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/pulls)
+---😱 [Types](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/pdf.lua) incomplete or incorrect? 🙏 [Please contribute!](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/pulls)
 ```
 
 No documentation at all:
