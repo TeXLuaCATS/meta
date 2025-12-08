@@ -19,11 +19,11 @@ the `LSP`.
 
 ## Subprojects
 
-* [lualatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualatex)
-* [lualibs](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualibs)
-* [luametatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luametatex)
-* [luaotfload](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luaotfload)
-* [luatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luatex)
+* [lualatex](https://github.com/TeXLuaCATS/LuaLaTeX)
+* [lualibs](https://github.com/TeXLuaCATS/Lualibs)
+* [luametatex](https://github.com/TeXLuaCATS/LuaMetaTeX)
+* [luaotfload](https://github.com/TeXLuaCATS/LuaOTFload)
+* [luatex](https://github.com/TeXLuaCATS/LuaTeX)
 
 ## Distribution ...
 
