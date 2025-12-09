@@ -59,8 +59,7 @@ Or you can use the configuration `Lua.workspace.library`:
 
 ![](resources/images/Screenshot_VSCode-extension.png)
 
-* [Visual Studio Code LuaTeX Extension](https://github.com/Josef-Friedrich/vscode_LuaTeX_Lua-API)
-  ← [library](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library)
+[Visual Studio Code LuaTeX Extension](https://github.com/TeXLuaCATS/vscode_extension)
 
 ### via LuaCATS git respositories
 
