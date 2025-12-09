@@ -57,7 +57,7 @@ Or you can use the configuration `Lua.workspace.library`:
 
 ### via Visual Studio Code Extension
 
-![](resources/images/Screenshot_VSCode-extension.png)
+[![](resources/images/Screenshot_VSCode-extension.png)](https://marketplace.visualstudio.com/items?itemName=JosefFriedrich.luatex)
 
 [Visual Studio Code LuaTeX Extension](https://github.com/TeXLuaCATS/vscode_extension)
 
