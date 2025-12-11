@@ -36,10 +36,10 @@
 	url = git@github.com:LuaCATS/tex-luametatex.git
 [submodule "resources/vscode_extension"]
 	path = vscode_extension
-	url = git@github.com:Josef-Friedrich/vscode_LuaTeX_Lua-API.git
+	url = git@github.com:TeXLuaCATS/vscode_extension.git
 [submodule "doc-generators/rust"]
 	path = doc-generators/rust
-	url = git@github.com:Josef-Friedrich/emmylua-analyzer-rust.git
+	url = git@github.com:TeXLuaCATS/emmylua-analyzer-rust.git
 [submodule "subrepos/Lua-TeX/LuaTeX"]
 	path = TeXLuaCATS/LuaTeX
 	url = git@github.com:TeXLuaCATS/LuaTeX.git
