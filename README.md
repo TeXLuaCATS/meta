@@ -261,7 +261,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/) and the
 
 
 ```
-git clone https://github.com/Josef-Friedrich/LuaTeX_Lua-API.git
+git clone https://github.com/TeXLuaCATS/LuaTeX.git
 ```
 
 `.vscode/settings.json`:
@@ -287,7 +287,7 @@ Use imperative mood for the first line: https://peps.python.org/pep-0257/
 Default message:
 
 ```lua
----😱 [Types](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/pdf.lua) incomplete or incorrect? 🙏 [Please contribute!](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/pulls)
+---😱 [Types](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/pdf.lua) incomplete or incorrect? 🙏 [Please contribute!](https://github.com/TeXLuaCATS/LuaTeX/pulls)
 ```
 
 No documentation at all:
@@ -296,7 +296,7 @@ No documentation at all:
 ---
 ---Warning! Undocumented code!<p>
 ---TODO: Please contribute
----https://github.com/Josef-Friedrich/LuaTeX_Lua-API#how-to-contribute
+---https://github.com/TeXLuaCATS/LuaTeX#how-to-contribute
 ```
 
 ### Minimal example of `tex.sp()`
@@ -363,7 +363,7 @@ The docstring above is rendered as follows in Visual Studio Code:
 ![](resources/images/tex.sp.png)
 
 This quick hacked and very ugly Python script
-[resources/manuals/convert-tex-to-lua-docstrings.py](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/resources/manuals/convert-tex-to-lua-docstrings.py)
+[resources/manuals/convert-tex-to-lua-docstrings.py](https://github.com/TeXLuaCATS/LuaTeX/blob/main/resources/manuals/convert-tex-to-lua-docstrings.py)
 was used to convert the source files.
 
 ### Navigation table `_N`
@@ -581,19 +581,19 @@ Quick info `node.id(type)`
 
 Type error in `node.id(type)`
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/node.id_wrong-type.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/node.id_wrong-type.png)
 
 `node.id(type)` type definition
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/node.id_definition.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/node.id_definition.png)
 
 Quick info `node.write(n)`
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/node.write.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/node.write.png)
 
 Documentation for the field `data` of the `pdf_colorstack` node:
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/PdfColorstockWhatsitNode.data.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/PdfColorstockWhatsitNode.data.png)
 
 ## Documentation
 
@@ -706,16 +706,15 @@ The Makefile provides targets for printing the global namespace
 available on the specific engines. The Makefile uses some Lua functions
 to output all functions and tables of the global namespace that can be
 found in
-[utils.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/utils.lua).
+[utils.lua](https://github.com/TeXLuaCATS/meta/blob/main/utils.lua).
 
-To print the [LuaTeX global
-namespace](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/resources/namespaces/luatex.md):
+To print the [LuaTeX global namespace](https://github.com/TeXLuaCATS/LuaTeX/blob/main/resources/namespace.md):
 
 ```
-make namespace_luatex
+make print_namespace
 ```
 
-To print the [LuaMetaTeX global namespace](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/resources/namespaces/luametatex_luaonly.md):
+To print the [LuaMetaTeX global namespace](https://github.com/TeXLuaCATS/meta/blob/main/resources/namespaces/luametatex_luaonly.md):
 
 ```
 make namespace_luametatex
