@@ -296,7 +296,7 @@ No documentation at all:
 ---
 ---Warning! Undocumented code!<p>
 ---TODO: Please contribute
----https://github.com/TeXLuaCATS/LuaTeX#how-to-contribute
+---https://github.com/TeXLuaCATS/meta#how-to-contribute
 ```
 
 ### Minimal example of `tex.sp()`
@@ -362,8 +362,7 @@ The docstring above is rendered as follows in Visual Studio Code:
 
 ![](resources/images/tex.sp.png)
 
-This quick hacked and very ugly Python script
-[resources/manuals/convert-tex-to-lua-docstrings.py](https://github.com/TeXLuaCATS/LuaTeX/blob/main/resources/manuals/convert-tex-to-lua-docstrings.py)
+A Python script called [manager](https://github.com/TeXLuaCATS/manager)
 was used to convert the source files.
 
 ### Navigation table `_N`
