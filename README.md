@@ -4,7 +4,7 @@ Type definitions for the Lua API of `LuaTeX` and related projects.
 
 ![](resources/screencasts/node.new.gif)
 
-[LuaTeX](http://luatex.org) has a very large [Lua](https://www.lua.org)
+[LuaTeX](https://www.luatex.org) has a very large [Lua](https://www.lua.org)
 API. This project tries to make this API accessible in the text editor
 of your choice. This is made possible by the
 [lua-language-server](https://github.com/LuaLS/lua-language-server) - a
@@ -68,14 +68,14 @@ Or you can use the configuration `Lua.workspace.library`:
 [LuaCATS](https://github.com/LuaCATS) is a [Github](https://github.com)
 organisation and stands for *“Lua Comment And Type System”*. This
 organization provides a place for community projects to live. These
-projects are [addons](https://luals.github.io/wiki/addons) for popular
+projects are [addons](https://luals.github.io/wiki/addons/) for popular
 libraries/frameworks.
 The repositories in this organization are used by
 [LLS-Addons](https://github.com/LuaLS/LLS-Addons), a repository that is used by the [addon
 manager](https://luals.github.io/wiki/addons/#addon-manager) of the [VS
 Code
 extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
-for the [Lua Language Server]([lls](https://github.com/LuaLS/lua-language-server)).
+for the [Lua Language Server](https://github.com/LuaLS/lua-language-server).
 
 #### All related LuaCATS repositories
 
@@ -143,7 +143,7 @@ real *Lua* code. They consist only of function bodies and empty
 tables. The main focus is in the docstrings.
 
 The API documentation is written in a [well documented annotation
-format](https://luals.github.io/wiki/annotations).
+format](https://luals.github.io/wiki/annotations/).
 This format is based on the [EmmyLua](https://emmylua.github.io)
 format. Unfortunately, the *Lua* community has not yet been able to
 agree on a standarized annotation format. Many *Lua* project are
@@ -430,7 +430,7 @@ example is taken from the `LuaTeX` manual:
 This can easily be done by documenting the function with the same name
 but different signatures multiple times.
 
-[Issue for further improvement of the function loading](https://github.com/sumneko/lua-language-server/issues/1456)
+[Issue for further improvement of the function loading](https://github.com/LuaLS/lua-language-server/issues/1456)
 
 Function overloading in `tex.sp()`
 
@@ -572,7 +572,7 @@ end
 luatexbase.add_to_callback('pre_linebreak_filter', visit_nodes, 'visit nodes')
 ```
 
-![](resources/images/PreLinebreakFilter.png)
+![](resources/images/PreLinebreakFilterCallback.png)
 
 Quick info `node.id(type)`
 
@@ -596,19 +596,19 @@ Documentation for the field `data` of the `pdf_colorstack` node:
 
 ## Documentation
 
-* [LuaTeX Repo](https://gitlab.lisn.upsaclay.fr/texlive/luatex/) [LuaTeX Mirror](https://github.com/TeX-Live/luatex)
-* [pdfTeX Mirror](https://github.com/tex-mirror/pdftex)
+* [LuaTeX Repo](https://gitlab.lisn.upsaclay.fr/texlive/luatex/) [LuaTeX Mirror](https://github.com/TeX-Live/texlive-source/tree/trunk/texk/web2c/luatexdir)
+* [pdfTeX Mirror](https://github.com/TeX-Live/texlive-source/tree/trunk/texk/web2c/pdftexdir)
 
 ## Howtos
 
-* [Custom libraries](https://github.com/sumneko/lua-language-server/wiki/Libraries#custom)
-* [@meta annotation](https://github.com/sumneko/lua-language-server/wiki/Annotations#meta)
+* [Custom libraries](https://github.com/LuaLS/lua-language-server/wiki/Libraries#custom)
+* [@meta annotation](https://github.com/LuaLS/lua-language-server/wiki/Annotations#meta)
 
 ## Other type definition / stub repos:
 
-* [Template of the Lua interface itself](https://github.com/sumneko/lua-language-server/tree/master/meta/template)
-* [In the lua-language-server included 3rd party libraries](https://github.com/sumneko/lua-language-server/tree/master/meta/3rd)
-* [FiveM Lua Stubs](https://github.com/jamie-34254/fivem_lua_stubs)
+* [Template of the Lua interface itself](https://github.com/LuaLS/lua-language-server/tree/master/meta/template)
+* [In the lua-language-server included 3rd party libraries](https://github.com/LuaLS/lua-language-server/tree/master/meta/3rd)
+* [FiveM Lua Stubs](https://github.com/j-mie/fivem_lua_stubs)
 
 ## Annotation
 
@@ -621,7 +621,7 @@ Marks a file as "meta", meaning it is used for definitions and not for
 its functional Lua code. It is used internally by the language server
 for defining the [built-in Lua
 libraries](https://github.com/LuaLS/lua-language-server/tree/master/meta/template).
-If you are writing your own [definition files](/wiki/definition-files),
+If you are writing your own [definition files](https://luals.github.io/wiki/definition-files/),
 you will probably want to include this annotation in them. If you
 specify a name, it will only be able to be required by the given name.
 Giving the name `_` will make it unable to be required. Files with the
