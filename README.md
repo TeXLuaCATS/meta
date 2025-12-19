@@ -524,7 +524,6 @@ local kern = node.new('kern') --[[@as KernNode]]
 
 ![](resources/images/cast.png)
 
-
 ### Documentation of callback functions
 
 How a callback function is documented is shown using the
@@ -557,7 +556,6 @@ How a callback function is documented is shown using the
 ```
 
 #### @alias `NodeCallbackReturn`
-
 
 ```lua
 ---
@@ -669,7 +667,6 @@ Giving the name `_` will make it unable to be required. Files with the
 
 **Examples**
 
-
 Mark Meta File
 
 ```Lua
@@ -723,8 +720,6 @@ markdown_extensions:
 ```
 
 ## References
-
-
 
 ```lua
 ---
