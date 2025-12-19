@@ -4,7 +4,7 @@ Type definitions for the Lua API of `LuaTeX` and related projects.
 
 ![](resources/screencasts/node.new.gif)
 
-[LuaTeX](http://luatex.org) has a very large [Lua](https://www.lua.org)
+[LuaTeX](https://www.luatex.org) has a very large [Lua](https://www.lua.org)
 API. This project tries to make this API accessible in the text editor
 of your choice. This is made possible by the
 [lua-language-server](https://github.com/LuaLS/lua-language-server) - a
@@ -19,11 +19,11 @@ the `LSP`.
 
 ## Subprojects
 
-* [lualatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualatex)
-* [lualibs](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualibs)
-* [luametatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luametatex)
-* [luaotfload](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luaotfload)
-* [luatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luatex)
+* [lualatex](https://github.com/TeXLuaCATS/LuaLaTeX)
+* [lualibs](https://github.com/TeXLuaCATS/Lualibs)
+* [luametatex](https://github.com/TeXLuaCATS/LuaMetaTeX)
+* [luaotfload](https://github.com/TeXLuaCATS/LuaOTFload)
+* [luatex](https://github.com/TeXLuaCATS/LuaTeX)
 
 ## Distribution ...
 
@@ -57,10 +57,9 @@ Or you can use the configuration `Lua.workspace.library`:
 
 ### via Visual Studio Code Extension
 
-![](resources/images/Screenshot_VSCode-extension.png)
+[![](resources/images/Screenshot_VSCode-extension.png)](https://marketplace.visualstudio.com/items?itemName=JosefFriedrich.luatex)
 
-* [Visual Studio Code LuaTeX Extension](https://github.com/Josef-Friedrich/vscode_LuaTeX_Lua-API)
-  ← [library](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library)
+[Visual Studio Code LuaTeX Extension](https://github.com/TeXLuaCATS/vscode_extension)
 
 ### via LuaCATS git respositories
 
@@ -69,14 +68,14 @@ Or you can use the configuration `Lua.workspace.library`:
 [LuaCATS](https://github.com/LuaCATS) is a [Github](https://github.com)
 organisation and stands for *“Lua Comment And Type System”*. This
 organization provides a place for community projects to live. These
-projects are [addons](https://luals.github.io/wiki/addons) for popular
+projects are [addons](https://luals.github.io/wiki/addons/) for popular
 libraries/frameworks.
 The repositories in this organization are used by
 [LLS-Addons](https://github.com/LuaLS/LLS-Addons), a repository that is used by the [addon
 manager](https://luals.github.io/wiki/addons/#addon-manager) of the [VS
 Code
 extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
-for the [Lua Language Server]([lls](https://github.com/LuaLS/lua-language-server)).
+for the [Lua Language Server](https://github.com/LuaLS/lua-language-server).
 
 #### All related LuaCATS repositories
 
@@ -103,22 +102,22 @@ definitions are developed in a LuaCATS repository and *pulled* in by
 this project.
 
 * [LuaCATS: lmathx](https://github.com/LuaCATS/lmathx)
-  → [library/luametatex/lmathx.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luametatex/xmath.lua)
+  → [library/luametatex/lmathx.lua](https://github.com/TeXLuaCATS/LuaMetaTeX/blob/main/library/xmath.lua)
 * [LuaCATS: lpeg](https://github.com/LuaCATS/lpeg)
-  → [library/luatex/lpeg.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/lpeg.lua)
+  → [TeXLuaCATS/LuaTeX/lpeg.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/lpeg.lua)
 * [LuaCATS: luaharfbuzz](https://github.com/LuaCATS/luaharfbuzz)
-  → [library/luatex/luaharfbuzz.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/luaharfbuzz.lua)
+  → [TeXLuaCATS/LuaTeX/luaharfbuzz.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/luaharfbuzz.lua)
 * [LuaCATS: luasocket](https://github.com/LuaCATS/luasocket)
-  → [library/luatex/socket.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/socket.lua)
-  → [library/luatex/mime.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/mime.lua)
+  → [TeXLuaCATS/LuaTeX/socket.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/socket.lua)
+  → [TeXLuaCATS/LuaTeX/mime.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/mime.lua)
 * [LuaCATS: luazip](https://github.com/LuaCATS/luazip)
-  → [library/luatex/zip.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/zip.lua)
+  → [TeXLuaCATS/LuaTeX/zip.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/zip.lua)
 * [LuaCATS: lzlib](https://github.com/LuaCATS/lzlib)
-  → [library/luatex/zlib.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/zlib.lua)
+  → [TeXLuaCATS/LuaTeX/zlib.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/zlib.lua)
 * [LuaCATS: md5](https://github.com/LuaCATS/md5)
-  → [library/luatex/md5.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/md5.lua)
+  → [TeXLuaCATS/LuaTeX/md5.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/md5.lua)
 * [LuaCATS: slnunicode](https://github.com/LuaCATS/slnunicode)
-  → [library/luatex/unicode.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/unicode.lua)
+  → [TeXLuaCATS/LuaTeX/unicode.lua](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/unicode.lua)
 
 #### Downstream LuaCATS repositories
 
@@ -127,13 +126,13 @@ type definitions are developed in this project. They are then *pushed*
 into a LuaCATS repository.
 
 * [LuaCATS: tex-lualatex](https://github.com/LuaCATS/tex-lualatex)
-  ← [library/lualatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualatex)
+  ← [TeXLuaCATS/LuaLaTeX](https://github.com/TeXLuaCATS/LuaLaTeX)
 * [LuaCATS: tex-luatex](https://github.com/LuaCATS/tex-luatex)
-  ← [library/luatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luatex)
+  ← [TeXLuaCATS/LuaTeX](https://github.com/TeXLuaCATS/LuaTeX)
 * [LuaCATS: tex-lualibs](https://github.com/LuaCATS/tex-lualibs)
-  ← [library/lualibs](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/lualibs)
+  ← [TeXLuaCATS/Lualibs](https://github.com/TeXLuaCATS/Lualibs)
 * [LuaCATS: tex-luametatex](https://github.com/LuaCATS/tex-luametatex)
-  ← [library/luametatex](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/tree/main/library/luametatex)
+  ← [TeXLuaCATS/LuaMetaTeX](https://github.com/TeXLuaCATS/LuaMetaTeX)
 
 ## Directory structure of the repository
 
@@ -144,7 +143,7 @@ real *Lua* code. They consist only of function bodies and empty
 tables. The main focus is in the docstrings.
 
 The API documentation is written in a [well documented annotation
-format](https://luals.github.io/wiki/annotations).
+format](https://luals.github.io/wiki/annotations/).
 This format is based on the [EmmyLua](https://emmylua.github.io)
 format. Unfortunately, the *Lua* community has not yet been able to
 agree on a standarized annotation format. Many *Lua* project are
@@ -262,7 +261,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/) and the
 
 
 ```
-git clone https://github.com/Josef-Friedrich/LuaTeX_Lua-API.git
+git clone https://github.com/TeXLuaCATS/LuaTeX.git
 ```
 
 `.vscode/settings.json`:
@@ -288,7 +287,7 @@ Use imperative mood for the first line: https://peps.python.org/pep-0257/
 Default message:
 
 ```lua
----😱 [Types](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/library/luatex/pdf.lua) incomplete or incorrect? 🙏 [Please contribute!](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/pulls)
+---😱 [Types](https://github.com/TeXLuaCATS/LuaTeX/blob/main/library/pdf.lua) incomplete or incorrect? 🙏 [Please contribute!](https://github.com/TeXLuaCATS/LuaTeX/pulls)
 ```
 
 No documentation at all:
@@ -297,7 +296,7 @@ No documentation at all:
 ---
 ---Warning! Undocumented code!<p>
 ---TODO: Please contribute
----https://github.com/Josef-Friedrich/LuaTeX_Lua-API#how-to-contribute
+---https://github.com/TeXLuaCATS/meta#how-to-contribute
 ```
 
 ### Minimal example of `tex.sp()`
@@ -363,8 +362,7 @@ The docstring above is rendered as follows in Visual Studio Code:
 
 ![](resources/images/tex.sp.png)
 
-This quick hacked and very ugly Python script
-[resources/manuals/convert-tex-to-lua-docstrings.py](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/resources/manuals/convert-tex-to-lua-docstrings.py)
+A Python script called [manager](https://github.com/TeXLuaCATS/manager)
 was used to convert the source files.
 
 ### Navigation table `_N`
@@ -432,41 +430,11 @@ example is taken from the `LuaTeX` manual:
 This can easily be done by documenting the function with the same name
 but different signatures multiple times.
 
-[Issue for further improvement of the function loading](https://github.com/sumneko/lua-language-server/issues/1456)
+[Issue for further improvement of the function loading](https://github.com/LuaLS/lua-language-server/issues/1456)
 
 Function overloading in `tex.sp()`
 
 ![](resources/images/tex.sp_overload.png)
-
-### Overview of the existing Lua language server
-
-#### lua-language-server
-
-The most popular language server, simply named
-[lua-language-server](https://github.com/LuaLS/lua-language-server), was
-created by a Chinese with the nickname
-[*sumneko*](https://github.com/sumneko). In addition to the nickname,
-*sumnekos* Github profile also shows 最萌小汐 in Chinese characters,
-which means “The cutest Xiaoxi”[^google-translate] or “Xiao Shi, the
-most adorable child in the world”[^deepl]. The [first
-commit](https://github.com/LuaLS/lua-language-server/commit/3546129c29fbfd7211099a3fbee03a763915ab58)
-in the Git repository was made on 7 September 2018. The
-*lua-language-server* is written in Lua. In August 2025, the repository
-on Gibhub has around 3,800 stars.
-
-[^google-translate]: https://translate.google.de/?sl=zh-CN&tl=en&text=%E6%9C%80%E8%90%8C%E5%B0%8F%E6%B1%90%20&op=translate
-[^deepl]: https://www.deepl.com/en/translator#zh/en-gb/%E6%9C%80%E8%90%8C%E5%B0%8F%E6%B1%90
-
-### EmmyLua Analyzer Rust
-
-A promising language server that is not written in Lua but in Rust is
-the [EmmyLua Analyzer
-Rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust). This server
-was written by [CppCXY](https://github.com/CppCXY), the developer with
-the most commits after sumneko. The new server is advertised in
-[several](https://github.com/LuaLS/lua-language-server/issues/2910)
-[issues](https://github.com/LuaLS/lua-language-server/issues/3017) in
-the sumnekos *lua-language-server* Github repository.
 
 ### Documentation of nodes
 
@@ -602,7 +570,7 @@ end
 luatexbase.add_to_callback('pre_linebreak_filter', visit_nodes, 'visit nodes')
 ```
 
-![](resources/images/PreLinebreakFilter.png)
+![](resources/images/PreLinebreakFilterCallback.png)
 
 Quick info `node.id(type)`
 
@@ -610,35 +578,35 @@ Quick info `node.id(type)`
 
 Type error in `node.id(type)`
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/node.id_wrong-type.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/node.id_wrong-type.png)
 
 `node.id(type)` type definition
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/node.id_definition.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/node.id_definition.png)
 
 Quick info `node.write(n)`
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/node.write.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/node.write.png)
 
 Documentation for the field `data` of the `pdf_colorstack` node:
 
-![](https://raw.githubusercontent.com/Josef-Friedrich/LuaTeX_Lua-API/main/resources/images/PdfColorstockWhatsitNode.data.png)
+![](https://raw.githubusercontent.com/TeXLuaCATS/meta/main/resources/images/PdfColorstockWhatsitNode.data.png)
 
 ## Documentation
 
-* [LuaTeX Repo](https://gitlab.lisn.upsaclay.fr/texlive/luatex/) [LuaTeX Mirror](https://github.com/TeX-Live/luatex)
-* [pdfTeX Mirror](https://github.com/tex-mirror/pdftex)
+* [LuaTeX Repo](https://gitlab.lisn.upsaclay.fr/texlive/luatex/) [LuaTeX Mirror](https://github.com/TeX-Live/texlive-source/tree/trunk/texk/web2c/luatexdir)
+* [pdfTeX Mirror](https://github.com/TeX-Live/texlive-source/tree/trunk/texk/web2c/pdftexdir)
 
 ## Howtos
 
-* [Custom libraries](https://github.com/sumneko/lua-language-server/wiki/Libraries#custom)
-* [@meta annotation](https://github.com/sumneko/lua-language-server/wiki/Annotations#meta)
+* [Custom libraries](https://github.com/LuaLS/lua-language-server/wiki/Libraries#custom)
+* [@meta annotation](https://github.com/LuaLS/lua-language-server/wiki/Annotations#meta)
 
 ## Other type definition / stub repos:
 
-* [Template of the Lua interface itself](https://github.com/sumneko/lua-language-server/tree/master/meta/template)
-* [In the lua-language-server included 3rd party libraries](https://github.com/sumneko/lua-language-server/tree/master/meta/3rd)
-* [FiveM Lua Stubs](https://github.com/jamie-34254/fivem_lua_stubs)
+* [Template of the Lua interface itself](https://github.com/LuaLS/lua-language-server/tree/master/meta/template)
+* [In the lua-language-server included 3rd party libraries](https://github.com/LuaLS/lua-language-server/tree/master/meta/3rd)
+* [FiveM Lua Stubs](https://github.com/j-mie/fivem_lua_stubs)
 
 ## Annotation
 
@@ -651,7 +619,7 @@ Marks a file as "meta", meaning it is used for definitions and not for
 its functional Lua code. It is used internally by the language server
 for defining the [built-in Lua
 libraries](https://github.com/LuaLS/lua-language-server/tree/master/meta/template).
-If you are writing your own [definition files](/wiki/definition-files),
+If you are writing your own [definition files](https://luals.github.io/wiki/definition-files/),
 you will probably want to include this annotation in them. If you
 specify a name, it will only be able to be required by the given name.
 Giving the name `_` will make it unable to be required. Files with the
@@ -735,16 +703,15 @@ The Makefile provides targets for printing the global namespace
 available on the specific engines. The Makefile uses some Lua functions
 to output all functions and tables of the global namespace that can be
 found in
-[utils.lua](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/utils.lua).
+[utils.lua](https://github.com/TeXLuaCATS/meta/blob/main/utils.lua).
 
-To print the [LuaTeX global
-namespace](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/resources/namespaces/luatex.md):
+To print the [LuaTeX global namespace](https://github.com/TeXLuaCATS/LuaTeX/blob/main/resources/namespace.md):
 
 ```
-make namespace_luatex
+make print_namespace
 ```
 
-To print the [LuaMetaTeX global namespace](https://github.com/Josef-Friedrich/LuaTeX_Lua-API/blob/main/resources/namespaces/luametatex_luaonly.md):
+To print the [LuaMetaTeX global namespace](https://github.com/TeXLuaCATS/meta/blob/main/resources/namespaces/luametatex_luaonly.md):
 
 ```
 make namespace_luametatex

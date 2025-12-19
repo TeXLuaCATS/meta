@@ -5,7 +5,7 @@ ROOT="${LUA_HOME}/lls_addons"
 
 rm -rf "${ROOT}"
 
-git clone --recurse-submodules  git@github.com:Josef-Friedrich/LLS-Addons.git "${ROOT}"
+git clone --recurse-submodules git@github.com:TeXLuaCATS/LLS-Addons.git "${ROOT}"
 
 cd "${ROOT}"
 
