@@ -28,7 +28,7 @@ dist:
 
 .PHONY: update_lls_addons
 update_lls_addons:
-	resources/update-lls-addons.sh
+	./manage update-lls-addons
 
 .PHONY: submodules
 submodules:
