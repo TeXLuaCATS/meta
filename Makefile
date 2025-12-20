@@ -4,7 +4,7 @@ texmftex = $(texmf)/tex/luatex
 installdir = $(texmftex)/$(jobname)
 
 .PHONY: all
-all: format
+all: submodules_init
 
 .PHONY: format
 format:
